@@ -30,11 +30,13 @@ def modulus(num1, num2):
 
 #2. Implement User Input Handling:
 print("Select Operation:\n 1. Add \n 2. Subtract \n 3. Multiply \n 4. Divide \n 5. Modulus")
+
+
 try:
     operator= int(input("Enter choice (1/2/3/4/5): "))
     val1 = float(input("Enter first number: "))
     val2 = float(input("Enter second number: "))
-
+    
     #3. Conditional Logic:
     if operator == 1:
         addition(val1,val2)
